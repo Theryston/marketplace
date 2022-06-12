@@ -6,4 +6,10 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\Marketplace.Application\Marketplace.Application.csproj" />
+    <ProjectReference Include="..\Marketplace.Domain\Marketplace.Domain.csproj" />
+    <ProjectReference Include="..\Marketplace.Infra.Data\Marketplace.Infra.Data.csproj" />
+  </ItemGroup>
+
 </Project>
